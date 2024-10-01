@@ -1,0 +1,116 @@
+
+
+
+nav {
+  text-align: center;
+  
+}
+nav a {
+  outline: 2px solid cadetblue;
+  padding: 8px 16px;
+  font-size: medium; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 3px 3px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: cadetblue;
+} 
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgreen;
+    text-align: center;
+    
+}
+h2 {
+  color: cadetblue;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  text-align: center; 
+}
+h3 {
+  color: darkgreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  
+  }
+
+p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;font-size: 17px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+li {
+  font-family: Arial, Helvetica, sans-serif;font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+ 
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+ 
+}
+.kaikki {
+  list-style-position: inside;
+}
+
+#logo {
+  width: 35%;
+  margin: auto;
+  display: block;
+  margin: auto;
+}
+
+.keskitetytkuvat{
+    width: 25%;
+    margin: auto;
+    display: block;
+    margin: auto;
+}
+
+.yksittainenkuva{
+  width: 40%;
+  margin: auto;
+  display: block;
+  margin: auto;
+}
+
+
+/*mobiiliversio*/
+
+@media only screen and (max-width: 420px)
+{
+    nav a {
+      display:block;  /*muutetaan a lohkoksi -> alekkain */
+    width: fit-content; /*kaikista tulee sisältötekstin mittaisia */
+    margin:5px auto} /* ylös ja alas marginaalia 5px, auto -keskittää*/
+    
+    .yksittainenkuva{
+      width: 70%;
+      margin: auto;
+      display: block;
+      margin: auto;
+    }
+    #logo {
+      width: 50%;
+      margin: auto;
+      display: block;
+      margin: auto;
+    }
+    .keskitetytkuvat{
+      width: 50%;
+      margin: auto;
+      display: block;
+      margin: auto;
+  }
+}
+
+
+
+
+
